@@ -2,10 +2,9 @@
   "name": "react-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel src/public/index.html",
-    "build": "parcel build src/public/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -18,10 +17,10 @@
   },
   "homepage": "https://github.com/malcodeman/react-boilerplate#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.0.0-beta.1"
   },
   "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.12.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
